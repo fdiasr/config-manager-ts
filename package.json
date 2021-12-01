@@ -1,0 +1,32 @@
+{
+  "name": "config-manager-ts",
+  "version": "0.0.1",
+  "description": "Service Configuration Manager Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdiasr/ts-config-manager.git"
+  },
+  "keywords": [
+    "configuration"
+  ],
+  "author": "Fernando Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdiasr/ts-config-manager/issues"
+  },
+  "homepage": "https://github.com/fdiasr/ts-config-manager#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.11",
+    "i": "^0.3.7",
+    "jest": "^27.4.2",
+    "npm": "^8.1.4",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
