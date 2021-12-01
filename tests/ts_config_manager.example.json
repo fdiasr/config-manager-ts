@@ -1,0 +1,9 @@
+{
+    "firstKey": "first key value",
+    "secondKey": {
+        "innerKey": "inner key value",
+        "anotherKey": {
+            "anotherInnerKey": "another key value"
+        }
+    }
+}
