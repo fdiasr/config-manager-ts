@@ -1,0 +1,1 @@
+interface ConfigList extends Object {};

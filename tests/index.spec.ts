@@ -37,7 +37,8 @@ describe('Configurations', () => {
         expect(config.get('secondKey.anotherKey.anotherInnerKey')).toEqual(configList.secondKey.anotherKey.anotherInnerKey);
     });
 
-    test.skip('fails to retrieve undefined parameter', () => {
-        expect(config.get('undefinedKey')).toThrow(Error);
+    test('fails to retrieve undefined parameter', () => {
+        const getUndefinedKey = () => config.get('undefinedKey');
+        expect(getUndefinedKey).toThrow;
     });
 })

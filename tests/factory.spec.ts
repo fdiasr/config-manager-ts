@@ -1,8 +1,7 @@
 import { writeFileSync, unlinkSync } from 'fs';
 import { factory, Configuration, DEFAULT_JSON_FILENAME } from '../src';
 
-
-const DEFAULT_CONFIG_FILENAME = `../${DEFAULT_JSON_FILENAME}`;
+const DEFAULT_CONFIG_FILENAME = `${DEFAULT_JSON_FILENAME}`;
 const CUSTOM_CONFIG_FILENAME = '../custom_config.json';
 
 const ENV_CONFIG_DATA = '{ "firstKey": "first env value", "secondKey": { "innerKey": "inner env value", "anotherKey": { "anotherInnerKey": "another env value" } } }';
